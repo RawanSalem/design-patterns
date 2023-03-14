@@ -1,0 +1,20 @@
+{
+    "name": "rawan/design-pattern",
+    "description": "Practice/staudy design patterns",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Patterns\\": "Patterns/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rawan"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "fzaninotto/faker": "*"
+    }
+}
