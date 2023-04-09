@@ -1,6 +1,6 @@
 {
     "name": "rawan/design-pattern",
-    "description": "Practice/staudy design patterns",
+    "description": "Practice/study design patterns",
     "type": "project",
     "autoload": {
         "psr-4": {

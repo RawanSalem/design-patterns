@@ -10,9 +10,10 @@ class CaramelChocolate implements ChocolateInterface
 
     public function __construct($country, $calories)
     {
-        $this->country  = $country;
+        $this->country = $country;
         $this->calories = $calories;
     }
+
 
     public function chocolateCountry(): string
     {

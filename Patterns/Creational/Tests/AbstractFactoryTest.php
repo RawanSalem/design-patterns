@@ -21,7 +21,7 @@ class AbstractFactoryTest extends TestCase
         $this->faker = Factory::create();
     }
 
-    public function testGetHazelnautCocolateObject()
+    public function testGetHazelnutChocolateObject()
     {
         $country = $this->faker->country;
 
@@ -32,7 +32,7 @@ class AbstractFactoryTest extends TestCase
         $this->assertEquals("Made in " . $country, $hazelnutChocolate->chocolateCountry());
     }
 
-    public function testGetCaramelCocolateObject()
+    public function testGetCaramelChocolateObject()
     {
         $country = $this->faker->country;
         $calories = $this->faker->numberBetween(50, 250);
@@ -47,7 +47,7 @@ class AbstractFactoryTest extends TestCase
         );
     }
 
-    public function testGetDarkCocolateObject()
+    public function testGetDarkChocolateObject()
     {
         $country = $this->faker->country;
         $chocolatePercent = $this->faker->numberBetween(50, 100);
